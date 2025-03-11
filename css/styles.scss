@@ -3,6 +3,7 @@
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
+$white: #fefefe;
 
 
 // 3. Include remainder of required Bootstrap stylesheets
@@ -89,8 +90,18 @@ body{
 	border-radius: 0.5rem;
 }
 
+.Back-flip{
+	background: url("../images/Back-flip.png") no-repeat;
+}
+
 @media screen and (min-width: 768px){ // md breakpoint
 	.w-md-75{
+		width: 75% !important;
+	}
+}
+
+@media screen and (min-width: 992px){ // md breakpoint
+	.w-lg-75{
 		width: 75% !important;
 	}
 }
