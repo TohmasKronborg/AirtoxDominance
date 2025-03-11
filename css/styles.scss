@@ -4,13 +4,18 @@
 // 2. Include any default variable overrides here
 $link-decoration: none;
 
+
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+	"vibrantOrange": #f94415,
+	"deepBlack": #000000, // Tror den også bare hedder "black" i nogle tilfælde idk ¯\_(ツ)_/¯
+	"midnightBlack": #1b1b1b,
+	"grey": #989ea5,
+	// så der en ekstra der hedder White men den er allerede inkluderet
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
