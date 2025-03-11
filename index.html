@@ -54,7 +54,7 @@ _/    _/  _/  _/            _/_/    _/_/    _/    _/      _/_/_/      _/_/    _/
 </nav>
 
 <!-- Nav for table sizes -->
-<nav class="overlayHover d-none d-md-flex d-lg-none p-3 d-flex justify-content-between position-fixed top-0">
+<nav class="overlayHover z-1 bg-midnightBlack w-100 d-none d-md-flex d-lg-none p-3 d-flex justify-content-between position-fixed top-0">
 	<div>
 		<a href="index.html">
 			<img src="images/lilleLogoTilSortX4.png" class="img-fluid" alt="logoSmall" style="max-height: 50px">
@@ -73,7 +73,7 @@ _/    _/  _/  _/            _/_/    _/_/    _/    _/      _/_/_/      _/_/    _/
 
 
 <!-- Nav for desktop sizes -->
-<nav class="overlayHover d-none d-lg-flex fs-4 p-2 d-flex justify-content-evenly align-items-center superMolot text-white position-fixed top-0" style="height: 75px">
+<nav class="overlayHover z-1 bg-midnightBlack w-100 d-none d-lg-flex fs-5 p-2 d-flex justify-content-evenly align-items-center superMolot text-white position-fixed top-0" style="height: 75px">
 
 	<!-- Left side -->
 	<a href="event.html">Events</a>
@@ -91,14 +91,14 @@ _/    _/  _/  _/            _/_/    _/_/    _/    _/      _/_/_/      _/_/    _/
 	<a href="about.html">About</a>
 
 </nav>
-
-
 <!-- Nav End -->
+
 <div class="overflow-hidden" style="max-height: 550px;">
 	<img src="images/image00010.jpeg" class="img-fluid blikfang" alt="temp" style="margin-top: -5%;">
 </div>
 
-<div class="specialBox position-relative rounded-3 text-white me-auto ms-auto w-75 p-lg-5 border border-5 border-black container" style="margin-top: -75px;">
+<!-- Upcoming event -->
+<div class="specialBox position-relative rounded-3 text-white w-90 w-md-75 p-lg-5 border border-5 border-black container" style="margin-top: -75px;">
 	<div class="row">
 		<!-- Text area -->
 		<div class="col-lg-7 col-12">
@@ -115,15 +115,68 @@ _/    _/  _/  _/            _/_/    _/_/    _/    _/      _/_/_/      _/_/    _/
 
 		<!-- Buy ticket CTA -->
 		<div class="col-lg-5 col-12 p-2 text-center m-0 d-flex align-items-center justify-content-center">
-			<p class="h3 superMolot bg-vibrantOrange rounded-2 p-2 pe-4 ps-4 m-0">BUY TICKET</p>
+			<a href="index.html" class="h3 superMolot bg-vibrantOrange rounded-2 p-2 pe-4 ps-4 m-0">BUY TICKET</a>
 		</div>
 	</div>
 </div>
 
+<!-- What is Airtox Dominance -->
+<div class="container-fluid w-90 w-md-75 mt-5 mb-5">
+	<div class="row justify-content-between">
+		<div class="col-12 col-lg-7 p-0">
+			<!-- Question -->
+			<h1 class="superMolot fs-2 text-white text-center text-md-start">What is Airtox Dominance FC?</h1>
+			<p class="text-white">
+				ADFC, short for Airtox Dominance Fighting Championship, was established by three-time Olympian and UFC veteran Mark O. Madsen.
+				Airtox Dominance FC’s vision is to establish Europe’s premier fight promotion, hosting multiple Airtox Dominance FC events annually.
+				Airtox Dominance FC is dedicated to advancing the sport of MMA in Europe, creating exceptional experiences for fighters and fans alike.
+			</p>
+
+			<!-- Qoute -->
+			<div class="d-flex gap-2 gap-md-3 gap-lg-5 align-items-center">
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none">
+						<g clip-path="url(#clip0_3817_1619)">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M0 3C0 2.20435 0.316071 1.44129 0.87868 0.87868C1.44129 0.316071 2.20435 0 3 0L21 0C21.7956 0 22.5587 0.316071 23.1213 0.87868C23.6839 1.44129 24 2.20435 24 3V15C24 15.7957 23.6839 16.5587 23.1213 17.1213C22.5587 17.6839 21.7956 18 21 18H6.621C6.22321 18.0001 5.84174 18.1582 5.5605 18.4395L1.281 22.719C1.1762 22.8241 1.04258 22.8957 0.897054 22.9248C0.751531 22.9539 0.600648 22.9392 0.463499 22.8825C0.32635 22.8258 0.209103 22.7297 0.126596 22.6063C0.0440889 22.483 3.15223e-05 22.3379 0 22.1895L0 3ZM10.791 7.149C10.9215 7.335 11.0355 7.539 11.1315 7.7505C11.7735 9.1725 11.721 11.316 9.7185 13.3095C9.59627 13.4286 9.43314 13.4965 9.26248 13.4993C9.09182 13.5021 8.92655 13.4396 8.8005 13.3245C8.73904 13.2688 8.68963 13.2012 8.65531 13.1257C8.62098 13.0502 8.60248 12.9685 8.60093 12.8856C8.59939 12.8027 8.61483 12.7203 8.64632 12.6436C8.6778 12.5669 8.72466 12.4974 8.784 12.4395C9.4125 11.8155 9.792 11.193 9.9975 10.6095C9.594 10.857 9.1155 10.9995 8.6025 10.9995C7.1625 10.9995 6 9.8805 6 8.5005C6 7.1205 7.164 6 8.601 6C9.0075 6 9.393 6.09 9.735 6.249L9.747 6.255C10.0005 6.36 10.2375 6.528 10.4505 6.741C10.578 6.8655 10.692 7.002 10.791 7.149ZM16.5 10.6095C16.0965 10.857 15.618 10.9995 15.105 10.9995C13.668 10.9995 12.5025 9.8805 12.5025 8.5005C12.5025 7.1205 13.668 6 15.1035 6C15.51 6 15.8955 6.09 16.2375 6.249L16.2495 6.255C16.5045 6.36 16.74 6.528 16.953 6.741C17.0805 6.8655 17.1945 7.002 17.2935 7.149C17.424 7.335 17.5395 7.539 17.6355 7.7505C18.2775 9.1725 18.2235 11.316 16.2225 13.3095C16.1002 13.4291 15.9367 13.4972 15.7657 13.5C15.5947 13.5028 15.4291 13.44 15.303 13.3245C15.2415 13.2688 15.1921 13.2012 15.1578 13.1257C15.1235 13.0502 15.105 12.9685 15.1034 12.8856C15.1019 12.8027 15.1173 12.7203 15.1488 12.6436C15.1803 12.5669 15.2272 12.4974 15.2865 12.4395C15.9165 11.8155 16.2945 11.193 16.5015 10.6095H16.5Z"
+								  fill="#f94415"/>
+						</g>
+						<defs>
+							<clipPath id="clip0_3817_1619">
+								<rect width="50" height="50" fill="white"/>
+							</clipPath>
+						</defs>
+					</svg>
+				</div>
+				<p class="text-white m-0" style="font-weight: 300;">
+					“Dominance FC strives to build a fight promotion that attracts the best European fighters and delivers outstanding experiences for both spectators and sponsors.
+					Our goal is to organize adrenaline-pumping MMA shows where fight fans experience events beyond the ordinary.”
+				</p>
+			</div>
+
+			<!-- Signature -->
+			<div class="mt-5 d-flex">
+				<img src="images/2-about-1x1-1-480x480.jpg" class="rounded-circle img-fluid" alt="Mark💘" style="max-height: 100px;">
+				<div class="ms-5">
+					<p class="text-white superMolot">Mark O Madsen</p>
+					<p class="text-grey superMolot">CEO, Airtox Dominance FC</p>
+					<img src="images/sign-480x136.png" alt="signature" style="max-height: 65px; margin-top: -20px">
+				</div>
+			</div>
+		</div>
+
+		<!-- Img -->
+		<div class="d-none d-md-flex col-lg-4 justify-content-center p-0 justify-content-center align-items-center mt-5 mt-lg-0">
+			<img src="images/Blikfang2.png" class="img-fluid" alt="Dims">
+		</div>
+	</div>
+</div>
+
+
 <!-- Script til nav overlay -->
 <script>
+	const menu = document.getElementById("navOverlay");
+
 	function toggleMenu() {
-		const menu = document.getElementById("navOverlay");
 		menu.style.display = menu.style.display === "flex" ? "none" : "flex";
 	}
 </script>
