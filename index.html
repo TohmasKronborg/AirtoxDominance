@@ -14,8 +14,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <!--
-
-
                                                 ░
                                      ░         ░█░
                                     ░█░ ░      ░░
@@ -53,9 +51,6 @@
                                     ░█░
                                      ░
                                      ░
-
-
-
 -->
 <body class="bg-midnightBlack position-relative">
 
@@ -76,7 +71,7 @@
 	</div>
 
 	<!-- Hamburger menu overlay -->
-	<div id="navOverlay" class="w-100 h-100 bg-midnightBlack align-items-center justify-content-center position-fixed top-0 start-0" style="display: none; z-index: 1">
+	<div id="navOverlay" class="w-100 h-100 bg-midnightBlack align-items-center justify-content-center position-sticky top-0 start-0" style="display: none; z-index: 1">
 		<div class="m-2 overlayHover fs-1 d-flex flex-column gap-5 superMolot text-center">
 			<a href="event.html">Events</a>
 			<a href="watch.html">Watch</a>
@@ -89,7 +84,7 @@
 </nav>
 
 <!-- Nav for table sizes -->
-<nav class="overlayHover z-1 bg-midnightBlack w-100 d-none d-md-flex d-lg-none p-3 d-flex justify-content-between position-fixed top-0">
+<nav class="overlayHover z-1 bg-midnightBlack w-100 d-none d-md-flex d-lg-none p-3 d-flex justify-content-between">
 	<div>
 		<a href="index.html">
 			<img src="images/lilleLogoTilSortX4.png" class="img-fluid" alt="logoSmall" style="max-height: 50px">
@@ -108,7 +103,7 @@
 
 
 <!-- Nav for desktop sizes -->
-<nav class="overlayHover z-1 bg-midnightBlack w-100 d-none d-lg-flex fs-5 p-2 d-flex justify-content-evenly align-items-center superMolot text-white position-fixed top-0" style="height: 75px">
+<nav class="overlayHover z-1 bg-midnightBlack w-100 d-none d-lg-flex fs-5 p-2 d-flex justify-content-evenly align-items-center superMolot text-white position-sticky top-0" style="height: 75px; padding-top: 80px;">
 
 	<!-- Left side -->
 	<a href="event.html">Events</a>
@@ -126,9 +121,10 @@
 	<a href="about.html">About</a>
 
 </nav>
-<!-- Nav End -->
+<!-- Nav end -->
 
 <div class="overflow-hidden" style="max-height: 550px;">
+	<!-- Picture needs to be of an smaller resolution or lower quality, so it loads faster -->
 	<img src="images/image00010.jpeg" class="img-fluid blikfang" alt="temp" style="margin-top: -5%;">
 </div>
 
