@@ -1,5 +1,7 @@
 const menu = document.getElementById("navOverlay");
+const toggleMenu = document.querySelector(".toggleMenu")
 
-function toggleMenu() {
-    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
-}
+
+toggleMenu.addEventListener("click", () => {
+    menu.style.display = menu.style.display === "flex" ? "none" : "flex"
+})
