@@ -71,7 +71,7 @@
 	</div>
 
 	<!-- Hamburger menu overlay -->
-	<div id="navOverlay" class="w-100 h-100 bg-midnightBlack align-items-center justify-content-center position-sticky top-0 start-0" style="display: none; z-index: 1">
+	<div id="navOverlay" class="w-100 h-100 bg-midnightBlack align-items-center justify-content-center position-fixed top-0 start-0" style="display: none; z-index: 1">
 		<div class="m-2 overlayHover fs-1 d-flex flex-column gap-5 superMolot text-center">
 			<a href="event.html">Events</a>
 			<a href="watch.html">Watch</a>
@@ -261,14 +261,8 @@
 	</div>
 </div>
 
-<!-- Script til nav overlay -->
-<script>
-	const menu = document.getElementById("navOverlay");
 
-	function toggleMenu() {
-		menu.style.display = menu.style.display === "flex" ? "none" : "flex";
-	}
-</script>
+<script src="js/hamburgerMenu.js"></script> <!-- Script til nav overlay -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
