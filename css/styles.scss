@@ -129,3 +129,40 @@ body{
 		height: 550px;
 	}
 }
+
+// Scroll animation css
+
+.hiddenY {
+	opacity: 0;
+	transition: all .5s;
+	transform: translateY(20px);
+}
+
+.hiddenX {
+	opacity: 0;
+	transition: all .5s;
+	transform: translateX(20px);
+}
+
+.animDelay:nth-child(2) {
+	transition-delay: 200ms;
+}
+
+.animDelay:nth-child(3) {
+	transition-delay: 400ms;
+}
+
+.animDelay:nth-child(4) {
+	transition-delay: 400ms;
+}
+
+.hiddenMark{
+	transition: all 1s;
+	transform: translateX(-550px);
+}
+
+.show { // Show skal helst være universel med at bruge enten hiddenY eller hiddenX, den skal basically bare resette alle indstillingerne.
+	opacity: 1;
+	transform: translate(0);
+}
+
