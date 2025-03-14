@@ -58,13 +58,13 @@
 <!-- Nav Start -->
 
 <!-- Nav for mobile sizes -->
-<nav class="p-2 d-md-none">
+<nav class="p-2 d-md-none sticky-top z-2 bg-midnightBlack">
     <div class="d-flex justify-content-between">
         <a href="index.html">
             <img src="images/lilleLogoTilSortX4.png" class="img-fluid" alt="logoSmall" style="max-height: 50px">
         </a>
 
-        <div class="z-2 bg-midnightBlack rounded-3 position-fixed end-0 me-2 toggleMenu">
+        <div class="toggleMenu z-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100" fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.625 71.875C15.625 71.0462 15.9542 70.2513 16.5403 69.6653C17.1263 69.0792 17.9212 68.75 18.75 68.75H81.25C82.0788 68.75 82.8737 69.0792 83.4597 69.6653C84.0458 70.2513 84.375 71.0462 84.375 71.875C84.375 72.7038 84.0458 73.4987 83.4597 74.0847C82.8737 74.6708 82.0788 75 81.25 75H18.75C17.9212 75 17.1263 74.6708 16.5403 74.0847C15.9542 73.4987 15.625 72.7038 15.625 71.875ZM15.625 46.875C15.625 46.0462 15.9542 45.2513 16.5403 44.6653C17.1263 44.0792 17.9212 43.75 18.75 43.75H81.25C82.0788 43.75 82.8737 44.0792 83.4597 44.6653C84.0458 45.2513 84.375 46.0462 84.375 46.875C84.375 47.7038 84.0458 48.4987 83.4597 49.0847C82.8737 49.6708 82.0788 50 81.25 50H18.75C17.9212 50 17.1263 49.6708 16.5403 49.0847C15.9542 48.4987 15.625 47.7038 15.625 46.875ZM15.625 21.875C15.625 21.0462 15.9542 20.2513 16.5403 19.6653C17.1263 19.0792 17.9212 18.75 18.75 18.75H81.25C82.0788 18.75 82.8737 19.0792 83.4597 19.6653C84.0458 20.2513 84.375 21.0462 84.375 21.875C84.375 22.7038 84.0458 23.4987 83.4597 24.0847C82.8737 24.6708 82.0788 25 81.25 25H18.75C17.9212 25 17.1263 24.6708 16.5403 24.0847C15.9542 23.4987 15.625 22.7038 15.625 21.875Z" fill="#F8F9FB"></path>
             </svg>
@@ -85,7 +85,7 @@
 </nav>
 
 <!-- Nav for table sizes -->
-<nav class="overlayHover z-1 bg-midnightBlack w-100 d-none d-md-flex d-lg-none p-3 d-flex justify-content-between">
+<nav class="overlayHover z-1 bg-midnightBlack w-100 d-none d-md-flex d-lg-none p-3 d-flex justify-content-between sticky-top">
     <div>
         <a href="index.html">
             <img src="images/lilleLogoTilSortX4.png" class="img-fluid" alt="logoSmall" style="max-height: 50px">
@@ -104,7 +104,7 @@
 
 
 <!-- Nav for desktop sizes -->
-<nav class="overlayHover z-1 bg-midnightBlack w-100 d-none d-lg-flex fs-5 p-2 d-flex justify-content-evenly align-items-center superMolot text-white position-sticky top-0" style="height: 75px">
+<nav class="overlayHover z-1 bg-midnightBlack w-100 d-none d-lg-flex fs-5 p-2 d-flex justify-content-evenly align-items-center superMolot text-white sticky-top" style="height: 75px; padding-top: 80px;">
 
     <!-- Left side -->
     <a href="event.html">Events</a>
@@ -124,12 +124,13 @@
 </nav>
 <!-- Nav end -->
 
-<div id="parallax-header" class="d-flex justify-content-center align-items-center landingHeaderBox bg-white">
+<!-- Intro -->
+<div id="parallaxHeader" class="d-flex justify-content-center align-items-center landingHeaderBox bg-white position-sticky z-n1" style="top: 75px;">
     <h1 class="text-midnightBlack superMolot landingHeader hiddenMark">ABOUT</h1>
 </div>
 
 <!-- What is Airtox Dominance -->
-<div class="pt-5 pb-5" style="z-index: 1;">
+<div class="pt-5 pb-5 z-1 bg-midnightBlack">
     <div class="container-fluid w-90 w-lg-75 justify-content-center align-items-center">
         <div class="row justify-content-between">
             <!-- Picture -->
@@ -187,7 +188,7 @@
             </div>
 
             <div class="col-12 col-lg-3 d-flex flex-column align-items-center hiddenY animDelay" style="box-shadow: 5px 5px 10px 0px rgba(152, 158, 165, 0.25);">
-                <img src="images/FalmmeHvidBG.svg" class="img-fluid m-3" alt="" style="max-height: 75px;">
+                <img src="images/FalmmeHvidBG.svg" class="img-fluid m-3" alt="" style="max-height: 75px;    ">
                 <h6 class="superMolot text-center">
                     Unforgettable Fight Experiences
                 </h6>
@@ -200,7 +201,7 @@
 </div>
 
 <!-- Jump to gallery -->
-<div class="container-fluid mb-5 mt-5">
+<div class="container mb-5 mt-5 bg-midnightBlack">
     <div class="text-center text-white">
        <h1 class="h2 superMolot">Thrilling Moments Captured from Previous Fights!</h1>
         <p>Check out our gallery here</p>
@@ -210,10 +211,10 @@
         <div class="col-12 col-lg-6 d-flex">
             <div class="carousel slide align-items-center" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item">
+                    <div class="carousel-item active">
                         <img src="images/DSC03319.jpg" class="d-block mx-auto img-fluid w-lg-75" alt="...">
                     </div>
-                    <div class="carousel-item active">
+                    <div class="carousel-item"> <!-- Dette billed er mindre end de andre så skal skiftes -->
                         <img src="images/Take-a-Look-0044-1-scaled.jpg" class="d-block mx-auto img-fluid w-lg-75" alt="...">
                     </div>
                     <div class="carousel-item">
@@ -226,13 +227,24 @@
         <!-- Jump to btn -->
         <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-5 mt-lg-0">
             <div class="bg-vibrantOrange rounded-2 d-inline-block p-3 text-center">
-                <a href="https://www.dominancefc.com/gallery/" class="text-white superMolot fs-3">Check out our gallery!</a>
+                <a href="https://www.dominancefc.com/gallery/" class="text-white superMolot fs-4">Check out our gallery!</a>
             </div>
         </div>
     </div>
 </div>
 
 
+<script>
+    const parallaxHeader = document.querySelector("#parallaxHeader")
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY >= 555){
+            parallaxHeader.classList.add("opacity-0")
+        } else {
+            parallaxHeader.classList.remove("opacity-0")
+        }
+    })
+</script>
 <script defer src="js/scrollAnimation.js"></script>
 <script src="js/hamburgerMenu.js"></script> <!-- Script til nav overlay -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
