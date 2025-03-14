@@ -114,6 +114,18 @@ body{
 	.landingHeaderBox{
 		height: 400px;
 	}
+
+	.animDelay:nth-child(2) {
+		transition-delay: 200ms;
+	}
+
+	.animDelay:nth-child(3) {
+		transition-delay: 400ms;
+	}
+
+	.animDelay:nth-child(4) {
+		transition-delay: 400ms;
+	}
 }
 
 @media screen and (min-width: 992px){ // md breakpoint
@@ -144,21 +156,10 @@ body{
 	transform: translateX(20px);
 }
 
-.animDelay:nth-child(2) {
-	transition-delay: 200ms;
-}
-
-.animDelay:nth-child(3) {
-	transition-delay: 400ms;
-}
-
-.animDelay:nth-child(4) {
-	transition-delay: 400ms;
-}
-
 .hiddenMark{
-	transition: all 1s;
-	transform: translateX(-550px);
+	opacity: 0;
+	transition: all 2s;
+	transform: translateX(-200px);
 }
 
 .show { // Show skal helst være universel med at bruge enten hiddenY eller hiddenX, den skal basically bare resette alle indstillingerne.

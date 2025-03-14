@@ -12,6 +12,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/lilleLogoTilSortX2.png">
 </head>
 <!--
                                                 ░
@@ -123,12 +124,12 @@
 </nav>
 <!-- Nav end -->
 
-<div class="d-flex justify-content-center align-items-center landingHeaderBox">
-    <h1 class="text-white superMolot landingHeader">ABOUT</h1>
+<div id="parallax-header" class="d-flex justify-content-center align-items-center landingHeaderBox bg-white">
+    <h1 class="text-midnightBlack superMolot landingHeader hiddenMark">ABOUT</h1>
 </div>
 
 <!-- What is Airtox Dominance -->
-<div class="pt-5 pb-5">
+<div class="pt-5 pb-5" style="z-index: 1;">
     <div class="container-fluid w-90 w-lg-75 justify-content-center align-items-center">
         <div class="row justify-content-between">
             <!-- Picture -->
@@ -137,8 +138,8 @@
             </div>
 
             <!-- Q&A -->
-            <div class="col-12 col-lg-7 text-white mt-5 mt-lg-0 d-flex flex-column justify-content-center align-items-center">
-                <div>
+            <div class="col-12 col-lg-7 text-white mt-5 mt-lg-0 d-flex flex-column justify-content-center align-items-center animDelay">
+                <div class="hiddenX animDelay">
                     <h4 class="superMolot">WHAT IS AIRTOX DOMINANCE FC</h4>
                     <p>
                         ADFC, short for Airtox Dominance Fighting Championship, was established by three-time Olympian and UFC veteran Mark O. Madsen.
@@ -146,7 +147,7 @@
                         Airtox Dominance FC is dedicated to advancing the sport of MMA in Europe, creating exceptional experiences for fighters and fans alike.
                     </p>
                 </div>
-                <div class="pt-3 pt-sm-0">
+                <div class="pt-3 pt-sm-0 hiddenX animDelay">
                     <h4 class="superMolot">WHY AIRTOX DOMINANCE FC</h4>
                     <p>
                         MMA, or Mixed Martial Arts, is the world’s fastest-growing sport, and we see enormous potential in the European MMA scene.
@@ -158,22 +159,14 @@
     </div>
 </div>
 
+<!-- Goals -->
 <div class="bg-white pt-5 pb-5" style="box-shadow: 0px 5px 10px 0px rgba(27,27,27, 0.25) inset;">
     <h2 class="superMolot text-center text-vibrantOrange pb-5 m-0">WHAT DO WE AIM TO ACHIEVE</h2>
 
     <div class="container-fluid w-90 w-md-75">
-        <div class="row d-flex justify-content-between gap-5">
-            <div class="col-12 col-lg-3 d-flex flex-column align-items-center" style="box-shadow: 5px 5px 10px 0px rgba(152, 158, 165, 0.25);">
-                <svg class="mb-3" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none">
-                    <g clip-path="url(#clip0_139_257)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M42.4219 2.03906C39.7031 -0.679687 35.2969 -0.679687 32.5781 2.03906L18.9703 15.6516L37.5 34.1859L56.0344 15.6516L42.4172 2.03906H42.4219ZM59.3438 18.9656L40.8188 37.5L59.3531 56.0344L72.9656 42.4172C75.6844 39.6984 75.6844 35.2969 72.9656 32.5828L59.3531 18.9656H59.3438ZM56.0344 59.3484L37.5 40.8141L18.9656 59.3484L32.5828 72.9609C35.3016 75.6797 39.7031 75.6797 42.4172 72.9609L56.0344 59.3484ZM15.6516 56.0344L34.1859 37.5L15.6516 18.9656L2.03906 32.5828C-0.679687 35.3016 -0.679687 39.7031 2.03906 42.4172L15.6516 56.0344Z" fill="black"/>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_139_257">
-                            <rect width="75" height="75" fill="white"/>
-                        </clipPath>
-                    </defs>
-                </svg>
+        <div class="row d-flex justify-content-between gap-5 animDelay">
+            <div class="col-12 col-lg-3 d-flex flex-column align-items-center hiddenY animDelay" style="box-shadow: 5px 5px 10px 0px rgba(152, 158, 165, 0.25);">
+                <img src="images/FistHvidBG.svg" class="img-fluid m-3" alt="" style="max-height: 75px;">
                 <h6 class="superMolot text-center">
                     Thrilling MMA Shows
                 </h6>
@@ -182,17 +175,8 @@
                 </p>
             </div>
 
-            <div class="col-12 col-lg-3 d-flex flex-column align-items-center" style="box-shadow: 5px 5px 10px 0px rgba(152, 158, 165, 0.25);">
-                <svg class="mb-3" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none">
-                    <g clip-path="url(#clip0_139_257)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M42.4219 2.03906C39.7031 -0.679687 35.2969 -0.679687 32.5781 2.03906L18.9703 15.6516L37.5 34.1859L56.0344 15.6516L42.4172 2.03906H42.4219ZM59.3438 18.9656L40.8188 37.5L59.3531 56.0344L72.9656 42.4172C75.6844 39.6984 75.6844 35.2969 72.9656 32.5828L59.3531 18.9656H59.3438ZM56.0344 59.3484L37.5 40.8141L18.9656 59.3484L32.5828 72.9609C35.3016 75.6797 39.7031 75.6797 42.4172 72.9609L56.0344 59.3484ZM15.6516 56.0344L34.1859 37.5L15.6516 18.9656L2.03906 32.5828C-0.679687 35.3016 -0.679687 39.7031 2.03906 42.4172L15.6516 56.0344Z" fill="black"/>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_139_257">
-                            <rect width="75" height="75" fill="white"/>
-                        </clipPath>
-                    </defs>
-                </svg>
+            <div class="col-12 col-lg-3 d-flex flex-column align-items-center hiddenY animDelay" style="box-shadow: 5px 5px 10px 0px rgba(152, 158, 165, 0.25);">
+                <img src="images/GlobeHvidBG.svg" class="img-fluid m-3" alt="" style="max-height: 75px;">
                 <h6 class="superMolot text-center">
                     Expanding Our Reach
                 </h6>
@@ -202,17 +186,8 @@
                 </p>
             </div>
 
-            <div class="col-12 col-lg-3 d-flex flex-column align-items-center" style="box-shadow: 5px 5px 10px 0px rgba(152, 158, 165, 0.25);">
-                <svg class="mb-3" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75" fill="none">
-                    <g clip-path="url(#clip0_139_257)">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M42.4219 2.03906C39.7031 -0.679687 35.2969 -0.679687 32.5781 2.03906L18.9703 15.6516L37.5 34.1859L56.0344 15.6516L42.4172 2.03906H42.4219ZM59.3438 18.9656L40.8188 37.5L59.3531 56.0344L72.9656 42.4172C75.6844 39.6984 75.6844 35.2969 72.9656 32.5828L59.3531 18.9656H59.3438ZM56.0344 59.3484L37.5 40.8141L18.9656 59.3484L32.5828 72.9609C35.3016 75.6797 39.7031 75.6797 42.4172 72.9609L56.0344 59.3484ZM15.6516 56.0344L34.1859 37.5L15.6516 18.9656L2.03906 32.5828C-0.679687 35.3016 -0.679687 39.7031 2.03906 42.4172L15.6516 56.0344Z" fill="black"/>
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_139_257">
-                            <rect width="75" height="75" fill="white"/>
-                        </clipPath>
-                    </defs>
-                </svg>
+            <div class="col-12 col-lg-3 d-flex flex-column align-items-center hiddenY animDelay" style="box-shadow: 5px 5px 10px 0px rgba(152, 158, 165, 0.25);">
+                <img src="images/FalmmeHvidBG.svg" class="img-fluid m-3" alt="" style="max-height: 75px;">
                 <h6 class="superMolot text-center">
                     Unforgettable Fight Experiences
                 </h6>
@@ -224,6 +199,41 @@
     </div>
 </div>
 
+<!-- Jump to gallery -->
+<div class="container-fluid mb-5 mt-5">
+    <div class="text-center text-white">
+       <h1 class="h2 superMolot">Thrilling Moments Captured from Previous Fights!</h1>
+        <p>Check out our gallery here</p>
+    </div>
+    <div class="row">
+        <!-- Carousel col -->
+        <div class="col-12 col-lg-6 d-flex">
+            <div class="carousel slide align-items-center" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="images/DSC03319.jpg" class="d-block mx-auto img-fluid w-lg-75" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="images/Take-a-Look-0044-1-scaled.jpg" class="d-block mx-auto img-fluid w-lg-75" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/DSC03263-1-scaled.jpg" class="d-block mx-auto img-fluid w-lg-75" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jump to btn -->
+        <div class="col-12 col-lg-5 d-flex align-items-center justify-content-center mt-5 mt-lg-0">
+            <div class="bg-vibrantOrange rounded-2 d-inline-block p-3 text-center">
+                <a href="https://www.dominancefc.com/gallery/" class="text-white superMolot fs-3">Check out our gallery!</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script defer src="js/scrollAnimation.js"></script>
 <script src="js/hamburgerMenu.js"></script> <!-- Script til nav overlay -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
