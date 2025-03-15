@@ -99,9 +99,12 @@ body{
 }
 
 .landingHeaderBox{
-	height: 300px;
+	height: 375px;
 }
 
+#parallaxHeader{
+	top: 66px;
+}
 
 // Breakpoints
 @media screen and (min-width: 768px){ // md breakpoint
@@ -114,7 +117,11 @@ body{
 	}
 
 	.landingHeaderBox{
-		height: 400px;
+		height: 475px;
+	}
+
+	#parallaxHeader{
+
 	}
 
 	.animDelay:nth-child(2) {
@@ -140,7 +147,7 @@ body{
 	}
 
 	.landingHeaderBox{
-		height: 550px;
+		height: 575px;
 	}
 }
 
