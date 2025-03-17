@@ -99,7 +99,7 @@ body{
 }
 
 .landingHeaderBox{
-	height: 375px;
+	height: 275px;
 }
 
 #parallaxHeader{
@@ -121,7 +121,7 @@ body{
 	}
 
 	.landingHeaderBox{
-		height: 475px;
+		height: 375px;
 	}
 
 	.animDelay:nth-child(2) {
@@ -133,7 +133,11 @@ body{
 	}
 
 	.animDelay:nth-child(4) {
-		transition-delay: 400ms;
+		transition-delay: 600ms;
+	}
+
+	.animDelay:nth-child(5) {
+		transition-delay: 800ms;
 	}
 }
 
@@ -147,7 +151,7 @@ body{
 	}
 
 	.landingHeaderBox{
-		height: 575px;
+		height: 475px;
 	}
 
 	#parallaxHeader{
@@ -175,7 +179,7 @@ body{
 	transform: translateX(-200px);
 }
 
-.show { // Show skal helst være universel med at bruge enten hiddenY eller hiddenX, den skal basically bare resette alle indstillingerne.
+.animShow { // Show skal helst være universel med at bruge enten hiddenY eller hiddenX, den skal basically bare resette alle indstillingerne.
 	opacity: 1;
 	transform: translate(0);
 }

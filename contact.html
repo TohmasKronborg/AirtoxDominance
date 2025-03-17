@@ -17,14 +17,14 @@
 <!--
                                                 ░
                                      ░         ░█░
-                                    ░█░ ░      ░░
+                                    ░█░         ░
                                   ░▒███▒
                                  ░▓█████▓░
-                    ░▒░         ░█████████░ ░
+                    ░▒░         ░█████████░
                     ▒█▒       ░█████████████░
                             ░▓███████████████▓░
                             ░▒█████████████████▒░
-                            ░ ░▓█████████████████▓░
+                              ░▓█████████████████▓░
                       ░█▓░      ░▓██████████████████░
                   ░▒▓█████▓░      ░▓████████████████▒░
                  ░▓█████████▒░      ░████████████▓░
@@ -42,15 +42,14 @@
                             ▓████▓░     ▒█████▓
                             ░█████▓░     ░████░
                              ░▓█████░     ▒██░       ░░
-                      ░       ░█████▓░     ░░      ░░█▒
+                      ░       ░█████▓░     ░░       ░█▒
                       ░        ░██████░
                      ░█▒        ▒██████░
                       ░          ▒██████░
                                   ▒█████▓
-                                 ░░█████░
+                                  ░█████░
                                    ░███░
                                     ░█░
-                                     ░
                                      ░
 -->
 <body>
@@ -77,7 +76,7 @@
       <a href="watch.html">Watch</a>
       <a href="shop.html">Shop</a>
       <a href="fighterSignUp.html">Fighter signup</a>
-      <a href="partners.html">Partners</a>
+      <a href="partners.html">Sponsors</a>
       <a href="contact.html">Contacts</a>
       <a href="about.html">About</a>
     </div>
@@ -103,7 +102,7 @@
 
     <!-- Right side -->
     <a href="fighterSignUp.html">Fighter signup</a>
-    <a href="partners.html">Partners</a>
+    <a href="partners.html">Sponsors</a>
     <a href="contact.html">Contacts</a>
     <a href="about.html">About</a>
   </div>
@@ -161,7 +160,7 @@
       <p>Ready to elevate your brand with Airtox Dominance FC?
         <br>
         Contact us today to create a customized sponsorship package that meets your needs.</p>
-      <p class="pt-3">If you want to learn more about being a sponsor. then click at the button down below</p>
+      <p class="pt-3">If you want to learn more about what it means to be a sponsor. then click at the button down below</p>
       <a href="partners.html" class="link-vibrantOrange">Read about being a sponsor here</a>
     </div>
 
@@ -395,12 +394,10 @@
   function smoothScrollDown(pixels) {
     console.log("smoothScrollDown function was activated! Scrolling down by", pixels, "pixels.");
 
-    // Get the current vertical scroll position (top)
     let currentScrollPosition = window.scrollY || document.documentElement.scrollTop;
 
-    // Scroll the window by the specified number of pixels down from the current position
     window.scroll({
-      top: currentScrollPosition + pixels, // Add pixels to current scroll position
+      top: currentScrollPosition + pixels,
       left: 0,
       behavior: "smooth"
     });
